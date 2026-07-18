@@ -1,0 +1,1538 @@
+[
+    {
+        "location": "p[11]",
+        "category": "company",
+        "original": "KSH INTERNATIONAL LIMITED",
+        "replacement": "VANGUARD INDUSTRIES LIMITED"
+    },
+    {
+        "location": "p[23]",
+        "category": "company",
+        "original": "KSH INTERNATIONAL LIMITED",
+        "replacement": "VANGUARD INDUSTRIES LIMITED"
+    },
+    {
+        "location": "p[24]",
+        "category": "address",
+        "original": "registered office of our Company, see \u201cHistory and Certain Corporate Matters- Change in our registered office\u201d on page 243",
+        "replacement": "72/A, Industrial Sector 4, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[24]",
+        "category": "company",
+        "original": "KSH International Limited",
+        "replacement": "Vanguard Industries Limited"
+    },
+    {
+        "location": "p[24]",
+        "category": "address",
+        "original": "registered office within the same state was issued to us on October 13, 2011, by the RoC",
+        "replacement": "16/A, Industrial Sector 5, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[24]",
+        "category": "address",
+        "original": "registered office of our Company was shifted from the jurisdiction of Registrar of Companies, Maharashtra at Mumbai to the jurisdiction of the Registrar of Companies, Maharashtra a",
+        "replacement": "173/A, Industrial Sector 2, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[24]",
+        "category": "company",
+        "original": "KSH International Private Limited",
+        "replacement": "Vanguard Industries Private Limited"
+    },
+    {
+        "location": "p[24]",
+        "category": "company",
+        "original": "Bhandary Metal Extrusion Private Limited",
+        "replacement": "Premier Metal Extrusions Private Limited"
+    },
+    {
+        "location": "p[24]",
+        "category": "company",
+        "original": "Bhandary Metal Extrusion Private Limited",
+        "replacement": "Premier Metal Extrusions Private Limited"
+    },
+    {
+        "location": "p[26]",
+        "category": "address",
+        "original": "Registered Office: 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune \u2013 410 501, Maharashtra, India",
+        "replacement": "45/A, Industrial Sector 2, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[27]",
+        "category": "address",
+        "original": "Corporate Office: 201, Tower 2, Montreal Business Centre, Off Pallod Farms, Baner, Pune \u2013 411 045, Maharashtra, India",
+        "replacement": "32/A, Industrial Sector 10, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[28]",
+        "category": "phone",
+        "original": "+ 91 20 4505 3237",
+        "replacement": "+91 20 60013389"
+    },
+    {
+        "location": "p[28]",
+        "category": "name",
+        "original": "Sarthak Malvadkar",
+        "replacement": "Rohan Sharma"
+    },
+    {
+        "location": "p[29]",
+        "category": "email",
+        "original": "cs.connect@kshinternational.com",
+        "replacement": "argwuwrn@vanguardind.com"
+    },
+    {
+        "location": "p[48]",
+        "category": "address",
+        "original": "Registered Office at 11/3, 11/4 and 11/5, Village Birdewadi, Chakan Taluka - Khed, Pune \u2013 410 501, Maharashtra, India and its Corporate Office at 201, Tower 2, Montreal Business Ce",
+        "replacement": "66/A, Industrial Sector 8, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[48]",
+        "category": "company",
+        "original": "KSH International Limited",
+        "replacement": "Vanguard Industries Limited"
+    },
+    {
+        "location": "p[114]",
+        "category": "company",
+        "original": "CareEdge Research",
+        "replacement": "Beacon Market Research"
+    },
+    {
+        "location": "p[114]",
+        "category": "company",
+        "original": "CareEdge Research",
+        "replacement": "Beacon Market Research"
+    },
+    {
+        "location": "p[114]",
+        "category": "company",
+        "original": "CareEdge Research",
+        "replacement": "Beacon Market Research"
+    },
+    {
+        "location": "p[114]",
+        "category": "company",
+        "original": "CARE Analytics and Advisory Private Limited",
+        "replacement": "Beacon Analytics and Advisory Private Limited"
+    },
+    {
+        "location": "p[133]",
+        "category": "name",
+        "original": "Reference Rate",
+        "replacement": "Rajesh Singh"
+    },
+    {
+        "location": "p[166]",
+        "category": "company",
+        "original": "Kanchenjunga Family Trust and Waterloo Industrial Park VI Private Limited",
+        "replacement": "Horizon Solutions Limited"
+    },
+    {
+        "location": "p[166]",
+        "category": "name",
+        "original": "Rakhi Girija Shetty",
+        "replacement": "Pooja Singhal"
+    },
+    {
+        "location": "p[166]",
+        "category": "name",
+        "original": "Rohit Kushal Hegde",
+        "replacement": "Kabir Vikram Rao"
+    },
+    {
+        "location": "p[166]",
+        "category": "name",
+        "original": "Rajesh Kushal Hegde",
+        "replacement": "Aarav Vikram Rao"
+    },
+    {
+        "location": "p[166]",
+        "category": "name",
+        "original": "Pushpa Kushal Hegde",
+        "replacement": "Sunita Vikram Rao"
+    },
+    {
+        "location": "p[166]",
+        "category": "name",
+        "original": "Kushal Subbayya Hegde",
+        "replacement": "Vikram Aditya Rao"
+    },
+    {
+        "location": "p[173]",
+        "category": "name",
+        "original": "Selling Shareholder",
+        "replacement": "Karan Joshi"
+    },
+    {
+        "location": "p[225]",
+        "category": "name",
+        "original": "Rakhi Girija Shetty",
+        "replacement": "Pooja Singhal"
+    },
+    {
+        "location": "p[225]",
+        "category": "name",
+        "original": "Rohit Kushal Hegde",
+        "replacement": "Kabir Vikram Rao"
+    },
+    {
+        "location": "p[225]",
+        "category": "name",
+        "original": "Rajesh Kushal Hegde",
+        "replacement": "Aarav Vikram Rao"
+    },
+    {
+        "location": "p[225]",
+        "category": "name",
+        "original": "Kushal Subbayya Hegde",
+        "replacement": "Vikram Aditya Rao"
+    },
+    {
+        "location": "p[226]",
+        "category": "name",
+        "original": "Ganesh Prasad",
+        "replacement": "Vijay Mehta"
+    },
+    {
+        "location": "p[226]",
+        "category": "name",
+        "original": "Sarthak Malvadkar",
+        "replacement": "Rohan Sharma"
+    },
+    {
+        "location": "p[226]",
+        "category": "name",
+        "original": "Amod Joshi",
+        "replacement": "Abhishek Kulkarni"
+    },
+    {
+        "location": "p[226]",
+        "category": "name",
+        "original": "Sandesh Bhagwat",
+        "replacement": "Sanjay Deshmukh"
+    },
+    {
+        "location": "p[248]",
+        "category": "name",
+        "original": "Key Managerial Personnel",
+        "replacement": "Vihaan Deepak Gupta"
+    },
+    {
+        "location": "p[262]",
+        "category": "company",
+        "original": "As certified by Kirtane & Pandit LLP",
+        "replacement": "Summit Ventures LLP"
+    },
+    {
+        "location": "p[267]",
+        "category": "company",
+        "original": "As certified by Kirtane & Pandit LLP",
+        "replacement": "Summit Ventures LLP"
+    },
+    {
+        "location": "p[276]",
+        "category": "company",
+        "original": "As certified by Kirtane & Pandit LLP",
+        "replacement": "Summit Ventures LLP"
+    },
+    {
+        "location": "p[282]",
+        "category": "company",
+        "original": "As certified by Kirtane & Pandit LLP",
+        "replacement": "Summit Ventures LLP"
+    },
+    {
+        "location": "p[287]",
+        "category": "name",
+        "original": "Secondary Transfer of",
+        "replacement": "Shalini Karan Nair"
+    },
+    {
+        "location": "p[306]",
+        "category": "company",
+        "original": "Care Analytics and Advisory Private Limited",
+        "replacement": "Horizon Technologies Limited"
+    },
+    {
+        "location": "p[319]",
+        "category": "company",
+        "original": "Virginia Transformer Corporation",
+        "replacement": "Delta Holdings"
+    },
+    {
+        "location": "p[319]",
+        "category": "company",
+        "original": "Nidec Industrial Automation India Private Limited",
+        "replacement": "Precision Automation India Private Limited"
+    },
+    {
+        "location": "p[319]",
+        "category": "company",
+        "original": "Georgia Transformer Corporation",
+        "replacement": "Summit Industries"
+    },
+    {
+        "location": "p[319]",
+        "category": "company",
+        "original": "Emirates Transformer & Switchgear Limited",
+        "replacement": "Global Enterprises Limited"
+    },
+    {
+        "location": "p[319]",
+        "category": "company",
+        "original": "CG Power and Industrial Solutions Limited",
+        "replacement": "Prime Enterprises Limited"
+    },
+    {
+        "location": "p[319]",
+        "category": "company",
+        "original": "Bharat Bijlee Limited",
+        "replacement": "Sterling Capital Limited"
+    },
+    {
+        "location": "p[347]",
+        "category": "company",
+        "original": "Vedanta Limited",
+        "replacement": "Sterling Solutions Limited"
+    },
+    {
+        "location": "p[347]",
+        "category": "company",
+        "original": "Savli Copper Products Private Limited",
+        "replacement": "Horizon Holdings Limited"
+    },
+    {
+        "location": "p[347]",
+        "category": "company",
+        "original": "Hindalco Industries Limited",
+        "replacement": "Apex Ventures Limited"
+    },
+    {
+        "location": "p[347]",
+        "category": "company",
+        "original": "Elantas Beck India Limited",
+        "replacement": "Apex Industries Limited"
+    },
+    {
+        "location": "p[347]",
+        "category": "company",
+        "original": "Cindus Corporation",
+        "replacement": "Horizon Ventures"
+    },
+    {
+        "location": "p[397]",
+        "category": "company",
+        "original": "KSH International",
+        "replacement": "Vanguard Industries"
+    },
+    {
+        "location": "p[399]",
+        "category": "address",
+        "original": "manufacturing facility at Supa, Ahilyanagar (formerly Ahmednagar) in Maharashtra, which may adversely affect our business, result of operations, financial condition and cash flows",
+        "replacement": "64/A, Industrial Sector 10, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[400]",
+        "category": "address",
+        "original": "Supa, Ahilyanagar (formerly Ahmednagar) in Maharashtra",
+        "replacement": "Vapi, Valsad in Gujarat"
+    },
+    {
+        "location": "p[428]",
+        "category": "company",
+        "original": "KSH International Private Limited",
+        "replacement": "Vanguard Industries Private Limited"
+    },
+    {
+        "location": "p[440]",
+        "category": "company",
+        "original": "KSH International Private Limited",
+        "replacement": "Vanguard Industries Private Limited"
+    },
+    {
+        "location": "p[440]",
+        "category": "company",
+        "original": "Bhandary Metal Extrusion Private Limited",
+        "replacement": "Premier Metal Extrusions Private Limited"
+    },
+    {
+        "location": "p[441]",
+        "category": "name",
+        "original": "Rajesh Kushal Hegde",
+        "replacement": "Aarav Vikram Rao"
+    },
+    {
+        "location": "p[442]",
+        "category": "name",
+        "original": "Rohit Kushal Hegde",
+        "replacement": "Kabir Vikram Rao"
+    },
+    {
+        "location": "p[443]",
+        "category": "name",
+        "original": "Rohit Kushal Hegde",
+        "replacement": "Kabir Vikram Rao"
+    },
+    {
+        "location": "p[455]",
+        "category": "company",
+        "original": "Kanj and Co LLP",
+        "replacement": "Legacy Audit & Assurance LLP"
+    },
+    {
+        "location": "p[456]",
+        "category": "name",
+        "original": "Jayaram N. Shetty",
+        "replacement": "Shalini Anil Singhal"
+    },
+    {
+        "location": "p[456]",
+        "category": "name",
+        "original": "Narayna B. Shetty",
+        "replacement": "Sunil Kiran Singhal"
+    },
+    {
+        "location": "p[456]",
+        "category": "name",
+        "original": "Kushal Subbayya Hegde",
+        "replacement": "Vikram Aditya Rao"
+    },
+    {
+        "location": "p[456]",
+        "category": "name",
+        "original": "Karunakar N. Bhandary",
+        "replacement": "Rajesh Divya Kamath"
+    },
+    {
+        "location": "p[463]",
+        "category": "company",
+        "original": "CareEdge Research",
+        "replacement": "Beacon Market Research"
+    },
+    {
+        "location": "p[463]",
+        "category": "company",
+        "original": "CARE Report or extracts of the CARE Report prepared by Care Analytics and Advisory Private Limited",
+        "replacement": "Vanguard Technologies Limited"
+    },
+    {
+        "location": "p[464]",
+        "category": "company",
+        "original": "CareEdge Research",
+        "replacement": "Beacon Market Research"
+    },
+    {
+        "location": "p[464]",
+        "category": "company",
+        "original": "CareEdge Research",
+        "replacement": "Beacon Market Research"
+    },
+    {
+        "location": "p[487]",
+        "category": "name",
+        "original": "Rakhi Girija Shetty",
+        "replacement": "Pooja Singhal"
+    },
+    {
+        "location": "p[487]",
+        "category": "name",
+        "original": "Rohit Kushal Hegde",
+        "replacement": "Kabir Vikram Rao"
+    },
+    {
+        "location": "p[487]",
+        "category": "name",
+        "original": "Rajesh Kushal Hegde",
+        "replacement": "Aarav Vikram Rao"
+    },
+    {
+        "location": "p[487]",
+        "category": "name",
+        "original": "Kushal Subbayya Hegde",
+        "replacement": "Vikram Aditya Rao"
+    },
+    {
+        "location": "p[488]",
+        "category": "name",
+        "original": "Ganesh Prasad",
+        "replacement": "Vijay Mehta"
+    },
+    {
+        "location": "p[488]",
+        "category": "name",
+        "original": "Sarthak Malvadkar",
+        "replacement": "Rohan Sharma"
+    },
+    {
+        "location": "p[488]",
+        "category": "name",
+        "original": "Amod Joshi",
+        "replacement": "Abhishek Kulkarni"
+    },
+    {
+        "location": "p[488]",
+        "category": "name",
+        "original": "Sandesh Bhagwat",
+        "replacement": "Sanjay Deshmukh"
+    },
+    {
+        "location": "p[526]",
+        "category": "address",
+        "original": "Plot No. F-223, Supa Parner Industrial Park, Mauje Palve Khurd, Taluka Parner, Dist \u2013 Ahmednagar, Maharashtra \u2013 414 301",
+        "replacement": "Plot No. C-99, Industrial Hub, Village Green, Taluka Green, Dist - Surat, Gujarat - 395003"
+    },
+    {
+        "location": "p[534]",
+        "category": "address",
+        "original": "Supa, Ahilyanagar (formerly Ahmednagar) in Maharashtra",
+        "replacement": "Vapi, Valsad in Gujarat"
+    },
+    {
+        "location": "p[534]",
+        "category": "address",
+        "original": "Chakan (Pune), Maharashtra",
+        "replacement": "Sanand (Ahmedabad), Gujarat"
+    },
+    {
+        "location": "p[534]",
+        "category": "address",
+        "original": "Taloja (Raigad), Maharashtra",
+        "replacement": "Morbi (Rajkot), Gujarat"
+    },
+    {
+        "location": "p[544]",
+        "category": "name",
+        "original": "ISO 45001:2018",
+        "replacement": "SUNITA JADHAV"
+    },
+    {
+        "location": "p[544]",
+        "category": "name",
+        "original": "ISO 14001:2015",
+        "replacement": "VIHAAN RAO"
+    },
+    {
+        "location": "p[544]",
+        "category": "name",
+        "original": "ISO 9001:2015",
+        "replacement": "KIRAN ROY"
+    },
+    {
+        "location": "p[582]",
+        "category": "company",
+        "original": "The cost and availability of capital depends on our credit ratings. Set out below are our credit ratings received from Care Ratings Limited",
+        "replacement": "Prime Holdings Limited"
+    },
+    {
+        "location": "p[596]",
+        "category": "address",
+        "original": "manufacturing facility at Unit 3 located at Chakan, Pune, Maharashtra, is on a leasehold basis for a period of three years with effect from August 2, 2023",
+        "replacement": "107/A, Industrial Sector 10, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[617]",
+        "category": "name",
+        "original": "Rakhi Girija Shetty",
+        "replacement": "Pooja Singhal"
+    },
+    {
+        "location": "p[617]",
+        "category": "name",
+        "original": "Rohit Kushal Hegde",
+        "replacement": "Kabir Vikram Rao"
+    },
+    {
+        "location": "p[617]",
+        "category": "name",
+        "original": "Rajesh Kushal Hegde",
+        "replacement": "Aarav Vikram Rao"
+    },
+    {
+        "location": "p[617]",
+        "category": "name",
+        "original": "Pushpa Kushal Hegde",
+        "replacement": "Sunita Vikram Rao"
+    },
+    {
+        "location": "p[617]",
+        "category": "name",
+        "original": "Kushal Subbayya Hegde",
+        "replacement": "Vikram Aditya Rao"
+    },
+    {
+        "location": "p[633]",
+        "category": "name",
+        "original": "Ajay Shriram Patil",
+        "replacement": "Animesh Joshi"
+    },
+    {
+        "location": "p[633]",
+        "category": "name",
+        "original": "Dinesh Hirachand Munot",
+        "replacement": "Devendra Chawla"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "KSH Infra Park IV Private Limited",
+        "replacement": "Horizon Ventures Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park IX A Private Limited",
+        "replacement": "Summit Industries Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park IX B Private Limited",
+        "replacement": "Horizon Solutions Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park IX Private Limited",
+        "replacement": "Sterling Ventures Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park VIII Private Limited",
+        "replacement": "Nexus Ventures Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park VI Private Limited",
+        "replacement": "Global Industries Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park V Private Limited",
+        "replacement": "Apex Capital Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park IV Private Limited",
+        "replacement": "Sterling Enterprises Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park III Private Limited",
+        "replacement": "Delta Enterprises Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park II Private Limited",
+        "replacement": "Prime Capital Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Industrial Park I Private Limited",
+        "replacement": "Nexus Enterprises Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Kushal Motors and Electricals Private Limited",
+        "replacement": "Sterling Ventures Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "KSH Integrated Logistics Private Limited",
+        "replacement": "Prime Ventures Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "KSH Distriparks Private Limited",
+        "replacement": "Global Enterprises Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "KSH Infra Park VI Private Limited",
+        "replacement": "Sterling Enterprises Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "KSH Infra Park 5 Private Limited",
+        "replacement": "Apex Capital Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "KSH Project Management Services Private Limited",
+        "replacement": "Global Holdings Limited"
+    },
+    {
+        "location": "p[647]",
+        "category": "company",
+        "original": "Waterloo Motors Private Limited",
+        "replacement": "Sterling Holdings Limited"
+    },
+    {
+        "location": "p[685]",
+        "category": "name",
+        "original": "Pushpa Hegde",
+        "replacement": "Sunita Rao"
+    },
+    {
+        "location": "p[685]",
+        "category": "name",
+        "original": "Kushal Subbayya Hegde",
+        "replacement": "Vikram Aditya Rao"
+    },
+    {
+        "location": "p[707]",
+        "category": "name",
+        "original": "Mutual Funds",
+        "replacement": "Aarav Gupta"
+    },
+    {
+        "location": "p[718]",
+        "category": "company",
+        "original": "Registered Office of our Company KSH International Limited",
+        "replacement": "Apex Industries Limited"
+    },
+    {
+        "location": "p[719]",
+        "category": "address",
+        "original": "Village Birdewadi Chakan, Taluka-Khed",
+        "replacement": "27/A, Industrial Sector 1, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[722]",
+        "category": "address",
+        "original": "registered office, see \u201cHistory and Certain Corporate Matters \u2013 Changes in our Registered Office\u201d on page 243",
+        "replacement": "94/A, Industrial Sector 2, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[723]",
+        "category": "company",
+        "original": "Corporate Office of our Company KSH International Limited",
+        "replacement": "Nexus Industries Limited"
+    },
+    {
+        "location": "p[741]",
+        "category": "name",
+        "original": "Sarthak Malvadkar",
+        "replacement": "Rohan Sharma"
+    },
+    {
+        "location": "p[742]",
+        "category": "name",
+        "original": "Taluka Khed",
+        "replacement": "Divya Joshi"
+    },
+    {
+        "location": "p[744]",
+        "category": "phone",
+        "original": "+ 91 20 45053237",
+        "replacement": "+91 20 82997376"
+    },
+    {
+        "location": "p[745]",
+        "category": "email",
+        "original": "Sarthak.malvadkar@kshinterantional.com",
+        "replacement": "rohan.sharma@vanguardind.com"
+    },
+    {
+        "location": "p[748]",
+        "category": "name",
+        "original": "Bidder\u2019s DP ID",
+        "replacement": "Anjali Karan Jadhav"
+    },
+    {
+        "location": "p[753]",
+        "category": "company",
+        "original": "Nuvama Wealth Management Limited",
+        "replacement": "Horizon Financial Advisory Limited"
+    },
+    {
+        "location": "p[754]",
+        "category": "name",
+        "original": "Bandra Kurla Complex",
+        "replacement": "Vihaan Rohan Verma"
+    },
+    {
+        "location": "p[755]",
+        "category": "name",
+        "original": "Bandra East",
+        "replacement": "Rajesh Rao"
+    },
+    {
+        "location": "p[756]",
+        "category": "company",
+        "original": "nuvama",
+        "replacement": "horizon"
+    },
+    {
+        "location": "p[756]",
+        "category": "name",
+        "original": "ksh.ipo@nuvama.com Website",
+        "replacement": "Alok Sharma"
+    },
+    {
+        "location": "p[756]",
+        "category": "phone",
+        "original": "+91 22 40094400",
+        "replacement": "+91 22 47317810"
+    },
+    {
+        "location": "p[757]",
+        "category": "email",
+        "original": "customerservice.mb@nuvama.com",
+        "replacement": "cyhfnppg@horizonwealth.com"
+    },
+    {
+        "location": "p[761]",
+        "category": "company",
+        "original": "ICICI Securities Limited",
+        "replacement": "Apex Capital Markets Limited"
+    },
+    {
+        "location": "p[762]",
+        "category": "email",
+        "original": "customercare@icicisecurities.com",
+        "replacement": "zojnwxzr@apexcap.com"
+    },
+    {
+        "location": "p[762]",
+        "category": "email",
+        "original": "ksh@icicisecurities.com",
+        "replacement": "mbfmamiz@apexcap.com"
+    },
+    {
+        "location": "p[762]",
+        "category": "phone",
+        "original": "+91 22 6807 7100",
+        "replacement": "+91 22 72343098"
+    },
+    {
+        "location": "p[763]",
+        "category": "name",
+        "original": "Kishan Rastogi/Abhijit Diwan",
+        "replacement": "Ravi Priya Trivedi"
+    },
+    {
+        "location": "p[775]",
+        "category": "company",
+        "original": "Nuvama Wealth Management Limited",
+        "replacement": "Horizon Financial Advisory Limited"
+    },
+    {
+        "location": "p[777]",
+        "category": "name",
+        "original": "Bandra Kurla Complex",
+        "replacement": "Vihaan Rohan Verma"
+    },
+    {
+        "location": "p[779]",
+        "category": "phone",
+        "original": "+ 91 22 4009 4400",
+        "replacement": "+91 22 21913619"
+    },
+    {
+        "location": "p[780]",
+        "category": "email",
+        "original": "sheetal.parab@nuvama.com",
+        "replacement": "ssqkigvw@horizonwealth.com"
+    },
+    {
+        "location": "p[780]",
+        "category": "email",
+        "original": "prakash.boricha@nuvama.com",
+        "replacement": "hstbtcnv@horizonwealth.com"
+    },
+    {
+        "location": "p[780]",
+        "category": "email",
+        "original": "ksh.ipo@nuvama.com",
+        "replacement": "hggroenf@horizonwealth.com"
+    },
+    {
+        "location": "p[781]",
+        "category": "company",
+        "original": "nuvama",
+        "replacement": "horizon"
+    },
+    {
+        "location": "p[782]",
+        "category": "name",
+        "original": "Prakash Boricha",
+        "replacement": "Sandeep Solanki"
+    },
+    {
+        "location": "p[785]",
+        "category": "company",
+        "original": "ICICI Securities Limited",
+        "replacement": "Apex Capital Markets Limited"
+    },
+    {
+        "location": "p[786]",
+        "category": "email",
+        "original": "ksh@icicisecurities.com",
+        "replacement": "mbfmamiz@apexcap.com"
+    },
+    {
+        "location": "p[786]",
+        "category": "phone",
+        "original": "+91 22 6807 7100",
+        "replacement": "+91 22 72343098"
+    },
+    {
+        "location": "p[787]",
+        "category": "email",
+        "original": "customercare@icicisecurities.com",
+        "replacement": "zojnwxzr@apexcap.com"
+    },
+    {
+        "location": "p[788]",
+        "category": "name",
+        "original": "Kishan Rastogi/Abhijit Diwan",
+        "replacement": "Ravi Priya Trivedi"
+    },
+    {
+        "location": "p[791]",
+        "category": "company",
+        "original": "Trilegal",
+        "replacement": "Apex Partners Legal"
+    },
+    {
+        "location": "p[794]",
+        "category": "name",
+        "original": "Bapat Marg",
+        "replacement": "Deepak Shinde"
+    },
+    {
+        "location": "p[796]",
+        "category": "email",
+        "original": "ipo@trilegal.com",
+        "replacement": "kycaotsd@apexlegal.com"
+    },
+    {
+        "location": "p[797]",
+        "category": "phone",
+        "original": "+91 22 4079 1000",
+        "replacement": "+91 22 18384251"
+    },
+    {
+        "location": "p[800]",
+        "category": "company",
+        "original": "Formerly Link Intime India Private Limited",
+        "replacement": "Sterling Industries Limited"
+    },
+    {
+        "location": "p[800]",
+        "category": "company",
+        "original": "MUFG Intime India Private Limited",
+        "replacement": "Summit Technologies Limited"
+    },
+    {
+        "location": "p[801]",
+        "category": "phone",
+        "original": "+91 81081 14949",
+        "replacement": "+91 7849808412"
+    },
+    {
+        "location": "p[802]",
+        "category": "email",
+        "original": "kshinternational.ipo@in.mpms.mufg.com",
+        "replacement": "iddxreij@in.mpms.fakeg.com"
+    },
+    {
+        "location": "p[803]",
+        "category": "email",
+        "original": "kshinternational.ipo@in.mpms.mufg.com",
+        "replacement": "iddxreij@in.mpms.fakeg.com"
+    },
+    {
+        "location": "p[804]",
+        "category": "name",
+        "original": "Shanti Gopalkrishnan",
+        "replacement": "Rajesh Iyer"
+    },
+    {
+        "location": "p[807]",
+        "category": "company",
+        "original": "Bankers to the Offer Escrow Collection Bank HDFC Bank Limited",
+        "replacement": "Summit Capital Limited"
+    },
+    {
+        "location": "p[808]",
+        "category": "company",
+        "original": "HDFC Bank Limited",
+        "replacement": "Sterling Enterprises Limited"
+    },
+    {
+        "location": "p[810]",
+        "category": "phone",
+        "original": "+91 22 30752914",
+        "replacement": "+91 22 01128059"
+    },
+    {
+        "location": "p[810]",
+        "category": "phone",
+        "original": "+91 22 30752928",
+        "replacement": "+91 22 52427868"
+    },
+    {
+        "location": "p[810]",
+        "category": "phone",
+        "original": "+91 22 30752929",
+        "replacement": "+91 22 74016400"
+    },
+    {
+        "location": "p[811]",
+        "category": "email",
+        "original": "pravin.teli2@hdfcbank.com",
+        "replacement": "znzvxzhi@indusbank.com"
+    },
+    {
+        "location": "p[811]",
+        "category": "email",
+        "original": "tushar.gavankar@hdfcbank.com",
+        "replacement": "zzfnafxk@indusbank.com"
+    },
+    {
+        "location": "p[811]",
+        "category": "email",
+        "original": "eric.bacha@hdfcbank.com",
+        "replacement": "yrntxehf@indusbank.com"
+    },
+    {
+        "location": "p[811]",
+        "category": "email",
+        "original": "sachin.gawade@hdfcbank.com",
+        "replacement": "blgvhvdl@indusbank.com"
+    },
+    {
+        "location": "p[811]",
+        "category": "email",
+        "original": "siddharth.jadhav@hdfcbank.com",
+        "replacement": "renebjlz@indusbank.com"
+    },
+    {
+        "location": "p[812]",
+        "category": "name",
+        "original": "Tushar Gavankar",
+        "replacement": "Aisha Sawant"
+    },
+    {
+        "location": "p[812]",
+        "category": "name",
+        "original": "Siddharth Jadhav",
+        "replacement": "Anjali Shinde"
+    },
+    {
+        "location": "p[812]",
+        "category": "name",
+        "original": "Pravin Teli",
+        "replacement": "Sanjay Patel"
+    },
+    {
+        "location": "p[812]",
+        "category": "name",
+        "original": "Sachin Gawade",
+        "replacement": "Vihaan Kadam"
+    },
+    {
+        "location": "p[812]",
+        "category": "name",
+        "original": "Eric Bacha/",
+        "replacement": "Ritu Kulkarni"
+    },
+    {
+        "location": "p[817]",
+        "category": "company",
+        "original": "ICICI Bank Limited",
+        "replacement": "Horizon Capital Limited"
+    },
+    {
+        "location": "p[819]",
+        "category": "email",
+        "original": "Ipocmg@icicibank.com",
+        "replacement": "qmvrkadi@indusbank.com"
+    },
+    {
+        "location": "p[819]",
+        "category": "name",
+        "original": "Marg Backbay Reclamation Churchgate",
+        "replacement": "Shalini Preeti Rajesh Jadhav"
+    },
+    {
+        "location": "p[823]",
+        "category": "company",
+        "original": "HDFC Bank Limited",
+        "replacement": "Sterling Enterprises Limited"
+    },
+    {
+        "location": "p[824]",
+        "category": "company",
+        "original": "HDFC Bank Limited",
+        "replacement": "Sterling Enterprises Limited"
+    },
+    {
+        "location": "p[826]",
+        "category": "phone",
+        "original": "+91 22 30752914",
+        "replacement": "+91 22 01128059"
+    },
+    {
+        "location": "p[826]",
+        "category": "phone",
+        "original": "+91 22 30752928",
+        "replacement": "+91 22 52427868"
+    },
+    {
+        "location": "p[826]",
+        "category": "phone",
+        "original": "+91 22 30752929",
+        "replacement": "+91 22 74016400"
+    },
+    {
+        "location": "p[827]",
+        "category": "email",
+        "original": "pravin.teli2@hdfcbank.com",
+        "replacement": "znzvxzhi@indusbank.com"
+    },
+    {
+        "location": "p[827]",
+        "category": "email",
+        "original": "tushar.gavankar@hdfcbank.com",
+        "replacement": "zzfnafxk@indusbank.com"
+    },
+    {
+        "location": "p[827]",
+        "category": "email",
+        "original": "eric.bacha@hdfcbank.com",
+        "replacement": "yrntxehf@indusbank.com"
+    },
+    {
+        "location": "p[827]",
+        "category": "email",
+        "original": "sachin.gawade@hdfcbank.com",
+        "replacement": "blgvhvdl@indusbank.com"
+    },
+    {
+        "location": "p[827]",
+        "category": "email",
+        "original": "siddharth.jadhav@hdfcbank.com",
+        "replacement": "renebjlz@indusbank.com"
+    },
+    {
+        "location": "p[828]",
+        "category": "name",
+        "original": "Tushar Gavankar",
+        "replacement": "Aisha Sawant"
+    },
+    {
+        "location": "p[828]",
+        "category": "name",
+        "original": "Siddharth Jadhav",
+        "replacement": "Anjali Shinde"
+    },
+    {
+        "location": "p[828]",
+        "category": "name",
+        "original": "Pravin Teli",
+        "replacement": "Sanjay Patel"
+    },
+    {
+        "location": "p[828]",
+        "category": "name",
+        "original": "Sachin Gawade",
+        "replacement": "Vihaan Kadam"
+    },
+    {
+        "location": "p[828]",
+        "category": "name",
+        "original": "Eric Bacha/",
+        "replacement": "Ritu Kulkarni"
+    },
+    {
+        "location": "p[833]",
+        "category": "company",
+        "original": "ICICI Bank Limited",
+        "replacement": "Horizon Capital Limited"
+    },
+    {
+        "location": "p[835]",
+        "category": "email",
+        "original": "Ipocmg@icicibank.com",
+        "replacement": "qmvrkadi@indusbank.com"
+    },
+    {
+        "location": "p[835]",
+        "category": "name",
+        "original": "Marg Backbay Reclamation Churchgate",
+        "replacement": "Shalini Preeti Rajesh Jadhav"
+    },
+    {
+        "location": "p[838]",
+        "category": "company",
+        "original": "HDFC Bank Limited",
+        "replacement": "Sterling Enterprises Limited"
+    },
+    {
+        "location": "p[839]",
+        "category": "company",
+        "original": "HDFC Bank Limited",
+        "replacement": "Sterling Enterprises Limited"
+    },
+    {
+        "location": "p[841]",
+        "category": "phone",
+        "original": "+91 22 30752914",
+        "replacement": "+91 22 01128059"
+    },
+    {
+        "location": "p[841]",
+        "category": "phone",
+        "original": "+91 22 30752928",
+        "replacement": "+91 22 52427868"
+    },
+    {
+        "location": "p[841]",
+        "category": "phone",
+        "original": "+91 22 30752929",
+        "replacement": "+91 22 74016400"
+    },
+    {
+        "location": "p[842]",
+        "category": "email",
+        "original": "pravin.teli2@hdfcbank.com",
+        "replacement": "znzvxzhi@indusbank.com"
+    },
+    {
+        "location": "p[842]",
+        "category": "email",
+        "original": "tushar.gavankar@hdfcbank.com",
+        "replacement": "zzfnafxk@indusbank.com"
+    },
+    {
+        "location": "p[842]",
+        "category": "email",
+        "original": "eric.bacha@hdfcbank.com",
+        "replacement": "yrntxehf@indusbank.com"
+    },
+    {
+        "location": "p[842]",
+        "category": "email",
+        "original": "sachin.gawade@hdfcbank.com",
+        "replacement": "blgvhvdl@indusbank.com"
+    },
+    {
+        "location": "p[842]",
+        "category": "email",
+        "original": "siddharth.jadhav@hdfcbank.com",
+        "replacement": "renebjlz@indusbank.com"
+    },
+    {
+        "location": "p[843]",
+        "category": "name",
+        "original": "Tushar Gavankar",
+        "replacement": "Aisha Sawant"
+    },
+    {
+        "location": "p[843]",
+        "category": "name",
+        "original": "Siddharth Jadhav",
+        "replacement": "Anjali Shinde"
+    },
+    {
+        "location": "p[843]",
+        "category": "name",
+        "original": "Pravin Teli",
+        "replacement": "Sanjay Patel"
+    },
+    {
+        "location": "p[843]",
+        "category": "name",
+        "original": "Sachin Gawade",
+        "replacement": "Vihaan Kadam"
+    },
+    {
+        "location": "p[843]",
+        "category": "name",
+        "original": "Eric Bacha/",
+        "replacement": "Ritu Kulkarni"
+    },
+    {
+        "location": "p[849]",
+        "category": "name",
+        "original": "a Registered Broker",
+        "replacement": "Ravi Ritu Singh"
+    },
+    {
+        "location": "p[856]",
+        "category": "name",
+        "original": "Share Transfer Agents",
+        "replacement": "Preeti Ritu Desai"
+    },
+    {
+        "location": "p[865]",
+        "category": "company",
+        "original": "Kanj & Co. LLP",
+        "replacement": "Vanguard Solutions LLP"
+    },
+    {
+        "location": "p[873]",
+        "category": "email",
+        "original": "parag.pansare@kirtanepandit.com",
+        "replacement": "prakash.patel@beaconassurance.com"
+    },
+    {
+        "location": "p[884]",
+        "category": "company",
+        "original": "Citibank",
+        "replacement": "Indus Bank"
+    },
+    {
+        "location": "p[887]",
+        "category": "phone",
+        "original": "+91 20 6606 4494",
+        "replacement": "+91 20 59514846"
+    },
+    {
+        "location": "p[888]",
+        "category": "name",
+        "original": "Hitesh Ramani",
+        "replacement": "Harish Rawat"
+    },
+    {
+        "location": "p[889]",
+        "category": "company",
+        "original": "citibank",
+        "replacement": "indus bank"
+    },
+    {
+        "location": "p[890]",
+        "category": "email",
+        "original": "hitesh.ramani@citi.com",
+        "replacement": "harish.rawat@fakebank.com"
+    },
+    {
+        "location": "p[894]",
+        "category": "company",
+        "original": "Export-Import Bank of India",
+        "replacement": "State Development Bank of India"
+    },
+    {
+        "location": "p[898]",
+        "category": "email",
+        "original": "pro@eximbankindia.in",
+        "replacement": "kmwjregn@statefinbank.in"
+    },
+    {
+        "location": "p[898]",
+        "category": "phone",
+        "original": "+91 20 2640 3100",
+        "replacement": "+91 20 62994680"
+    },
+    {
+        "location": "p[902]",
+        "category": "company",
+        "original": "IndusInd Bank Limited",
+        "replacement": "Sterling Technologies Limited"
+    },
+    {
+        "location": "p[905]",
+        "category": "email",
+        "original": "sharmila.joshi@indusind.com",
+        "replacement": "gnzstuko@fakebank.com"
+    },
+    {
+        "location": "p[905]",
+        "category": "name",
+        "original": "Sharmila Joshi Website",
+        "replacement": "Rahul Deepak Sharma"
+    },
+    {
+        "location": "p[907]",
+        "category": "company",
+        "original": "ICICI Bank Limited",
+        "replacement": "Horizon Capital Limited"
+    },
+    {
+        "location": "p[908]",
+        "category": "name",
+        "original": "Tanishq Showroom",
+        "replacement": "Rajesh Gupta"
+    },
+    {
+        "location": "p[908]",
+        "category": "company",
+        "original": "ICICI Bank",
+        "replacement": "Indus Bank"
+    },
+    {
+        "location": "p[910]",
+        "category": "email",
+        "original": "cherag.gyara@icicibank.com",
+        "replacement": "yhvjhzge@indusbank.com"
+    },
+    {
+        "location": "p[910]",
+        "category": "name",
+        "original": "Cherag Gyara Website",
+        "replacement": "Vikram Aarav Sharma"
+    },
+    {
+        "location": "p[910]",
+        "category": "phone",
+        "original": "+ 91 8879770456",
+        "replacement": "+91 0037917693"
+    },
+    {
+        "location": "p[912]",
+        "category": "company",
+        "original": "HDFC Bank Limited",
+        "replacement": "Sterling Enterprises Limited"
+    },
+    {
+        "location": "p[916]",
+        "category": "name",
+        "original": "Manisha Shukla",
+        "replacement": "Meena Sen"
+    },
+    {
+        "location": "p[916]",
+        "category": "phone",
+        "original": "+91 20 6769 4648",
+        "replacement": "+91 20 16328708"
+    },
+    {
+        "location": "p[917]",
+        "category": "email",
+        "original": "manisha.shukla@hdfcbank.com",
+        "replacement": "meena.sen@indusbank.com"
+    },
+    {
+        "location": "p[919]",
+        "category": "company",
+        "original": "State Bank of India",
+        "replacement": "National Bank of India"
+    },
+    {
+        "location": "p[920]",
+        "category": "name",
+        "original": "Tara Chambers",
+        "replacement": "Anjali Shinde"
+    },
+    {
+        "location": "p[923]",
+        "category": "company",
+        "original": "sbi",
+        "replacement": "nbi"
+    },
+    {
+        "location": "p[923]",
+        "category": "phone",
+        "original": "+91 20 2561 8211",
+        "replacement": "+91 20 27889579"
+    },
+    {
+        "location": "p[924]",
+        "category": "email",
+        "original": "rm6.ifbpune@sbi.co.in",
+        "replacement": "xqnrofxp@fakebank.co.in"
+    },
+    {
+        "location": "p[928]",
+        "category": "name",
+        "original": "Sancheti Hospital Shivajinagar",
+        "replacement": "Sandeep Deepak Patel"
+    },
+    {
+        "location": "p[928]",
+        "category": "name",
+        "original": "Kubera Chambers Opp",
+        "replacement": "Sandeep Ravi Sen"
+    },
+    {
+        "location": "p[928]",
+        "category": "company",
+        "original": "The Federal Bank Limited",
+        "replacement": "Delta Technologies Limited"
+    },
+    {
+        "location": "p[929]",
+        "category": "phone",
+        "original": "+ 91 91586 40360",
+        "replacement": "+91 4558122362"
+    },
+    {
+        "location": "p[932]",
+        "category": "email",
+        "original": "ashishmp@federalbank.co.in",
+        "replacement": "amit.singh@indusbank.co.in"
+    },
+    {
+        "location": "p[934]",
+        "category": "company",
+        "original": "Bajaj Finance Limited",
+        "replacement": "Summit Solutions Limited"
+    },
+    {
+        "location": "p[937]",
+        "category": "email",
+        "original": "anand.soni@bajajfinserv.in",
+        "replacement": "arjun.sharma@horizonfinance.in"
+    },
+    {
+        "location": "p[937]",
+        "category": "name",
+        "original": "Anand Soni",
+        "replacement": "Arjun Sharma"
+    },
+    {
+        "location": "p[937]",
+        "category": "phone",
+        "original": "+91 20 7157 6403",
+        "replacement": "+91 20 66587603"
+    },
+    {
+        "location": "p[945]",
+        "category": "company",
+        "original": "CARE Ratings Limited",
+        "replacement": "Apex Ventures Limited"
+    },
+    {
+        "location": "p[956]",
+        "category": "name",
+        "original": "Bandra Kurla Complex",
+        "replacement": "Vihaan Rohan Verma"
+    },
+    {
+        "location": "p[961]",
+        "category": "address",
+        "original": "Registered Office is located), at least two Working Days prior to the Bid/Offer Opening Date and shall be made available to the Stock Exchanges for the purposes of uploading on the",
+        "replacement": "157/A, Industrial Sector 7, GIDC Estate, Sanand, Ahmedabad - 382 110, Gujarat, India"
+    },
+    {
+        "location": "p[962]",
+        "category": "name",
+        "original": "Share Transfer Agents",
+        "replacement": "Preeti Ritu Desai"
+    },
+    {
+        "location": "p[964]",
+        "category": "name",
+        "original": "Mutual Funds",
+        "replacement": "Aarav Gupta"
+    }
+]
