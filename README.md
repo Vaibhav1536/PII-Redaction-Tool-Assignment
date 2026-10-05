@@ -1,109 +1,112 @@
-# PII Redaction Tool - Evaluation & Documentation
+# 🔐 PII Redaction Engine
 
-This project contains a Python-based Personally Identifiable Information (PII) Redaction Tool designed specifically to identify, map, and anonymize sensitive information inside financial and legal documents, specifically the `Red Herring Prospectus.docx` file.
+A Python-based hybrid **Personally Identifiable Information (PII) detection and anonymization engine** for sensitive financial and legal documents.
 
-The tool replaces actual PII with realistic, contextually appropriate fictitious values (maintaining surname and corporate domain consistency throughout) while preserving the document's original structure, tables, and inline formatting (bolding, italics, fonts).
+The system combines **Gazetteer matching, Regex rules and spaCy Named Entity Recognition (NER)** to detect PII, resolve overlapping detections, generate consistent fictitious replacements and preserve DOCX structure and inline formatting.
 
----
+> **Privacy note:** The source document and generated detection artifacts used during the original evaluation are intentionally excluded from the public version of this repository. Use your own test document and ground-truth data.
 
-## 1. Project Components
+## ✨ Detection Pipeline
 
-The workspace contains the following files:
-1. **`redact_pii.py`**: The core redaction script that loads the document, runs the hybrid detection engine, maps PII consistently, replaces text at the run-level, and saves the output.
-2. **`ground_truth.json`**: A Gold Standard dataset containing the manually and programmatically verified counts and lists of true PII entities in the original document.
-3. **`evaluate_redactor.py`**: The evaluation framework that runs the redactor, compares detections against `ground_truth.json`, calculates statistical metrics, and generates reports.
-4. **`Red Herring Prospectus_redacted.docx`**: The final redacted output document.
-5. **`detections.json`**: A complete JSON audit log of all 250 redacted entities, showing their location, category, original value, and replacement.
+    DOCX
+      │
+      ├── Gazetteer matching ─┐
+      ├── Regex detection ────┼──> Candidate spans
+      └── spaCy NER ──────────┘
+                  │
+                  ▼
+           Overlap resolution
+                  │
+                  ▼
+          Consistent fake mapping
+                  │
+                  ▼
+          DOCX run-level replacement
+                  │
+                  ▼
+           Redacted DOCX + audit log
 
----
+## 🧠 Engineering Highlights
 
-## 2. Redaction Methodology
+- **Gazetteer matching** for known people, organizations and addresses.
+- **Regex detection** for structured PII such as emails and phone numbers.
+- **spaCy NER** for contextual PERSON, ORG and GPE entities.
+- **Overlap resolution** to prevent duplicate replacements.
+- **Consistent mapping** so the same entity receives the same replacement.
+- **Formatting preservation** through DOCX run-level editing.
+- **Merged-cell protection** to avoid repeated processing of shared Word paragraphs.
 
-Our tool uses a **hybrid multi-stage pipeline** to maximize recall (catching all PII) and precision (avoiding redacting common words):
+## 📊 Evaluation
 
-1. **Gazetteer (Lookup List) Matching**: 
-   A precompiled index of known high-profile names, corporate entities, and physical addresses from the prospectus. This guarantees 100% recall on the primary directors, compliance officers, underwriters, and offices.
-2. **Regular Expressions (Regex)**:
-   High-precision patterns for structured data:
-   - **Emails**: Standard RFC-5322 regex.
-   - **Phone Numbers**: Multi-format regex capturing international prefixes, landlines, and spacing variations.
-   - **SSNs**: Standard US pattern `\d{3}-\d{2}-\d{4}`.
-   - **Credit Cards**: `13-16` digit patterns validated by the **Luhn Algorithm (modulo 10 checksum)** to avoid false positives on transaction logs or block numbers.
-   - **IP Addresses**: Standard IPv4 pattern validated for octet boundaries `[0, 255]`.
-   - **Dates of Birth**: Patterns capturing numeric dates, restricted to contexts where age/birth keywords (`born`, `dob`, `birth`) are located.
-3. **Named Entity Recognition (NER)**:
-   Uses spaCy's `en_core_web_sm` model to detect contextual entities (`PERSON`, `ORG`, `GPE`).
-4. **Overlap Resolution**:
-   Since multiple rules can fire on the same span (e.g. spaCy detecting `PERSON` and the name list matching too), a greedy overlap resolver selects the longest non-overlapping matches from back-to-front.
+The original evaluation used a manually verified ground-truth set containing **205 PII instances**.
 
-### Consistent Mapping & Realism
-To maintain maximum realism:
-- **Surnames**: A dictionary maps common surnames (e.g. `Hegde` -> `Rao`, `Patil` -> `Joshi`). If relatives share a last name, they share the same fake last name, preserving family relationships.
-- **Domains**: Email domains are mapped consistently (e.g. `@kshinternational.com` -> `@vanguardind.com`, `@nuvama.com` -> `@horizonwealth.com`).
-- **Structure**: Runs inside paragraph structures are modified directly. For multi-run matches, text is injected into the first run and cleared in subsequent runs, preserving fonts, bolding, and italics.
-- **Merged Cells Bug Protection**: In Word documents, merged cells share paragraph references. Iterating over rows leads to processing the same paragraph multiple times, leading to recursive redactions (redacting fake emails into new fake emails). We resolved this by tracking processed paragraph XML IDs (`id(p._element)`) and skipping duplicates.
+| Metric | Result |
+|---|---:|
+| Precision | **74.40%** |
+| Recall | **90.73%** |
+| F1 Score | **81.76%** |
+| Total detections | **250** |
+| True positives | **186** |
+| False positives | **64** |
+| False negatives | **19** |
 
----
+| Category | Precision | Recall | F1 |
+|---|---:|---:|---:|
+| Email | 100.00% | 97.50% | 98.73% |
+| Phone | 83.33% | 100.00% | 90.91% |
+| Name | 62.92% | 77.78% | 69.57% |
+| Company | 74.39% | 100.00% | 85.31% |
+| Address | 62.50% | 83.33% | 71.43% |
 
-## 3. Evaluation Approach
+The main remaining challenge is **precision on names and organizations**, where general-purpose NER can misclassify capitalized financial/legal terminology.
 
-To assess the tool's performance scientifically, we compiled a Ground Truth database (`ground_truth.json`).
-- True occurrences of emails, phones, and addresses were manually verified.
-- Names and companies were extracted, verified, and mapped.
-- Metrics calculated:
-  - **True Positives (TP)**: Correctly identified and redacted PII.
-  - **False Positives (FP)**: Non-PII text incorrectly redacted.
-  - **False Negatives (FN)**: Missed PII.
-  - **Precision**: $TP / (TP + FP)$ (Measure of quality)
-  - **Recall**: $TP / (TP + FN)$ (Measure of completeness)
-  - **F1-Score / Accuracy**: $2 \times \frac{Precision \times Recall}{Precision + Recall}$ (Harmonic mean)
+## 🗂️ Project Structure
 
----
+    .
+    ├── redact_pii.py
+    ├── evaluate_redactor.py
+    ├── compile_ground_truth.py
+    ├── evaluation_report.md
+    ├── ground_truth.json
+    └── README.md
 
-## 4. Evaluation Report
+Private input documents and generated PII audit logs should remain local and must not be committed to a public repository.
 
-Below is the detailed performance report compiled by `evaluate_redactor.py` against `ground_truth.json`:
+## ⚙️ Setup
 
-| PII Category | Ground Truth | Total Detections | True Positives (TP) | False Positives (FP) | False Negatives (FN) | Precision | Recall | F1-Score / Accuracy |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Email** | 40 | 39 | 39 | 0 | 1 | 100.00% | 97.50% | 98.73% |
-| **Phone** | 20 | 24 | 20 | 4 | 0 | 83.33% | 100.00% | 90.91% |
-| **Name** | 72 | 89 | 56 | 33 | 16 | 62.92% | 77.78% | 69.57% |
-| **Company** | 61 | 82 | 61 | 21 | 0 | 74.39% | 100.00% | 85.31% |
-| **Address** | 12 | 16 | 10 | 6 | 2 | 62.50% | 83.33% | 71.43% |
-| **Ssn** | 0 | 0 | 0 | 0 | 0 | 100.00% | 100.00% | 100.00% |
-| **Credit_card** | 0 | 0 | 0 | 0 | 0 | 100.00% | 100.00% | 100.00% |
-| **Dob** | 0 | 0 | 0 | 0 | 0 | 100.00% | 100.00% | 100.00% |
-| **Ip** | 0 | 0 | 0 | 0 | 0 | 100.00% | 100.00% | 100.00% |
-| **TOTAL (Micro-Avg)** | **205** | **250** | **186** | **64** | **19** | **74.40%** | **90.73%** | **81.76%** |
+Python 3.10+ is recommended.
 
----
+    python -m venv .venv
 
-## 5. Performance Analysis & Tradeoffs
+Windows:
+    .venv\Scripts\activate
 
-### Tradeoffs
-- **Gazetteer vs. Out-of-Vocabulary (OOV) Entities**: The precompiled gazetteer ensures extremely high recall for core entities. For OOV entities (like a previously unseen company or person), we rely on spaCy NER. However, spaCy's `en_core_web_sm` model is a lightweight general-domain model and occasionally misclassifies financial/legal terms.
-- **Precision vs. Recall in NER**: Lower precision for Names (62.92%) and Companies (74.39%) is a direct tradeoff of using spaCy NER. In legal/financial documents, terms like `Board of Directors`, `Offer`, or capitalized section headings (e.g. `Outstanding Litigation`) are often misclassified by spaCy as `PERSON` or `ORG` entities. We mitigated this by building a custom blacklist, but some false positives remain.
-- **Address Boundaries**: Detecting physical addresses without a full parser is challenging. Our context-based scanner matches from key phrases (`Registered Office:`) until punctuation limits, which can sometimes grab neighboring text (e.g., telephone labels at the end of the line), resulting in slight boundary issues.
+macOS/Linux:
+    source .venv/bin/activate
 
----
+    pip install -r requirements.txt
+    python -m spacy download en_core_web_sm
 
-## 6. Execution Instructions
+## ▶️ Run
 
-Ensure you have Python 3.13+ installed with the following packages:
-```bash
-pip install python-docx spacy pdfplumber
-python -m spacy download en_core_web_sm
-```
+Place your own input document in the project directory and configure the input/output paths in redact_pii.py.
 
-### Steps to Run:
-1. **Run Redactor**:
-   ```bash
-   python redact_pii.py
-   ```
-   This will read `Red Herring Prospectus.docx` and output the redacted version to `Red Herring Prospectus_redacted.docx`.
-2. **Run Evaluation Framework**:
-   ```bash
-   python evaluate_redactor.py
-   ```
-   This will run the redactor, calculate the final precision/recall/F1 metrics, and regenerate `evaluation_report.md`.
+    python redact_pii.py
+    python evaluate_redactor.py
+
+## 🔬 Trade-offs
+
+- Gazetteers improve recall for known entities but do not generalize to unseen names.
+- Regex provides strong precision for structured PII.
+- Lightweight spaCy NER improves OOV coverage but introduces false positives in domain-specific documents.
+- Address detection remains difficult without a dedicated document-layout/address parser.
+
+## 🔒 Security
+
+Do not commit original documents containing real PII, detection logs containing original values, API keys, credentials or local machine paths.
+
+For a public demo, use synthetic or fully anonymized documents.
+
+## License
+
+No license is currently specified. Add a license before accepting external contributions.
