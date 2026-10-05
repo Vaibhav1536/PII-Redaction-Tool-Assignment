@@ -4,6 +4,7 @@ import re
 import spacy
 import os
 import random
+from pathlib import Path
 
 # Seed for reproducibility of random elements
 random.seed(42)
@@ -12,9 +13,10 @@ random.seed(42)
 nlp = spacy.load("en_core_web_sm")
 
 # Define paths
-doc_path = r"c:\Users\hp\OneDrive\Desktop\ksh_project\Red Herring Prospectus.docx"
-output_path = r"c:\Users\hp\OneDrive\Desktop\ksh_project\Red Herring Prospectus_redacted.docx"
-detections_path = r"c:\Users\hp\OneDrive\Desktop\ksh_project\detections.json"
+BASE_DIR = Path(__file__).resolve().parent
+doc_path = str(BASE_DIR / "input.docx")
+output_path = str(BASE_DIR / "output_redacted.docx")
+detections_path = str(BASE_DIR / "detections.json")
 
 # List of known names (Gazetteer)
 known_names = [
