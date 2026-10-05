@@ -1,11 +1,13 @@
 import json
 import os
 import subprocess
+from pathlib import Path
 
 # Define paths
-gt_path = r"c:\Users\hp\OneDrive\Desktop\ksh_project\ground_truth.json"
-detections_path = r"c:\Users\hp\OneDrive\Desktop\ksh_project\detections.json"
-redact_script = r"c:\Users\hp\OneDrive\Desktop\ksh_project\redact_pii.py"
+BASE_DIR = Path(__file__).resolve().parent
+gt_path = str(BASE_DIR / "ground_truth.json")
+detections_path = str(BASE_DIR / "detections.json")
+redact_script = str(BASE_DIR / "redact_pii.py")
 
 def run_redactor():
     print("Executing PII Redaction Script...")
@@ -156,7 +158,7 @@ def main():
     print(f"{'TOTAL (Micro)':<15} | {total_gt:<8} | {total_tp+total_fp:<10} | {total_tp:<5} | {total_fp:<5} | {total_fn:<5} | {avg_precision:.2%} | {avg_recall:.2%} | {avg_f1:.2%}")
     
     # Save a report file
-    report_path = r"c:\Users\hp\OneDrive\Desktop\ksh_project\evaluation_report.md"
+    report_path = str(BASE_DIR / "evaluation_report.md")
     with open(report_path, "w", encoding="utf-8") as f:
         f.write("# PII Redactor Evaluation Report\n\n")
         f.write("Below are the detailed performance metrics of the PII Redaction Tool compiled from comparing its run outputs with the manually verified Ground Truth database.\n\n")
